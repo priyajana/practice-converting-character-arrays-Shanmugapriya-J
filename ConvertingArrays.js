@@ -28,3 +28,35 @@ for (message of correct_messages)
         console.log(message);
     }
 
+
+// Task 2
+let msg_1 = "All work and no play makes Jack a dull boy";
+let msg_2 = "They may take our lives, but they’ll never take our freedom!";
+let msg_3 = "Success consists of going from failure to failure without loss of enthusiasm.";
+let msg_4 = "It does not matter how slowly you go so long as you do not stop.";
+
+let all_messages =[msg_1,msg_2,msg_3,msg_4];
+let reversed_messages = [];
+for (msg of all_messages)
+    {
+        let reversed_msg = msg.split('').reverse().join('');
+        reversed_messages.push(reversed_msg);
+    }
+for (reversedMsg of reversed_messages)
+    {
+        console.log(reversedMsg);
+    }
+
+/*
+OUTPUT
+
+Coding may seem hard at first, but if you persist, you'll get it! You can also use coding skills in a variety of settings! Keep going, and you'll be okay!
+But code writing will feel hard at first. Take time, you‘ll get better with practice!
+You don't have to feel like a professional.If you have trouble, you are no different from other people!
+Just start today. Don't wait for the perfect moment. If you can only write small programs, they still matter.
+yob llud a kcaJ sekam yalp on dna krow llA
+!modeerf ruo ekat reven ll’yeht tub ,sevil ruo ekat yam yehT
+.msaisuhtne fo ssol tuohtiw eruliaf ot eruliaf morf gniog fo stsisnoc sseccuS
+.pots ton od uoy sa gnol os og uoy ylwols woh rettam ton seod tI
+
+*/
